@@ -2,7 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 header {
@@ -20,21 +22,18 @@ nav {
 }
 
 section {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.player {
-    width: 48%; 
-    margin-bottom: 20px;
+    margin: 20px; 
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    border-radius: 8px;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
+
 
 .team-description {
     margin-top: 10px;
@@ -45,24 +44,34 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
 nav a {
-    text-decoration: none; /* quitar el subrayado */
+    text-decoration: none; 
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-weight: bold; /* efecto de transición para un cambio suave */
+    font-weight: bold; 
 }
 
 nav a:hover {
-    background-color: #555; /* color de fondo al pasar el mouse */
+    background-color: #555;
 }
+.player {
+    width: 48%; 
+    margin-bottom: 20px;
+}
+
+
+.team-description {
+    margin-top: 10px;
+}
+
 footer a {
-    text-decoration: none; /* quitar el subrayado */
+    text-decoration: none; 
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
