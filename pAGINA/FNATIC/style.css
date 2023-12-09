@@ -29,7 +29,7 @@ section {
     margin: 20px; 
 }
 
-#sentinels {
+#fnatic {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 
-#sentinels .player:last-child {
+#fnatic .player:last-child {
     margin-left: auto;
     margin-right: auto;
 }
