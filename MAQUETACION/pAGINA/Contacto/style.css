@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(../Fotos/Main.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -13,12 +14,15 @@ header {
     color: white;
 }
 form {
-    background-color: #fff;
+    background-color: rgba(65, 63, 63, 0.404);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 30%; 
     margin: 100px auto; 
+    backdrop-filter: blur(75px);
+    color: white;
+
 }
 
 
@@ -38,7 +42,7 @@ button {
     background-color: #333;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
 }
