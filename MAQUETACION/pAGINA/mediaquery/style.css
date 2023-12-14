@@ -70,4 +70,8 @@
     {
         width: 80%;
     }
+    .mobile
+    {
+        display: none;
+    }
 }
