@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(../Fotos/Main.jpg);
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-image: url(../Fotos/Main.jpg); 
 }
 
 header {
@@ -14,7 +14,6 @@ header {
     text-align: center;
     color: white;
 }
-
 h2,h3{
     text-align: center;
     color: white;
@@ -29,9 +28,18 @@ h2,h3{
 }
 
 h2{
-    text-align: center;
-    margin-top: 1%;
+        margin-top: 1%;
 
+}
+
+h5{
+    width: 150vh;
+    transform: translateX(-250px);
+    
+}
+h5 img
+{
+    width: 100%;
 }
 
 nav {
@@ -45,7 +53,7 @@ section {
     margin: 20px; 
 }
 
-#fnatic {
+#equipos{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -113,12 +121,13 @@ nav a:hover {
 
 }
 
+
 .team-description {
     margin-top: 10px;
 }
 
 
-#fnatic .player:last-child {
+#equipos .player:last-child {
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,7 +138,4 @@ p{
     text-align: center;
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); 
-}
-h3{
-    color: aliceblue;
 }
